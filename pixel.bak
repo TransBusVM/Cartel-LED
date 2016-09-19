@@ -1,0 +1,403 @@
+EESchema Schematic File Version 2
+LIBS:Columna5060-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:led_5060
+LIBS:TLC5940NT
+LIBS:jumper3_no
+LIBS:Columna5060-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title "Columna cartel LED SMD TLC5940NT"
+Date "2016-09-05"
+Rev "1.0"
+Comp "TransBus S.R.L."
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED_5060 D9
+U 1 1 57C9F5E7
+P 7650 4850
+AR Path="/57CDC136/57C9F5E7" Ref="D9"  Part="1" 
+AR Path="/57CDC49D/57C9F5E7" Ref="D18"  Part="1" 
+AR Path="/57CDCAE0/57C9F5E7" Ref="D27"  Part="1" 
+AR Path="/57CDCE6B/57C9F5E7" Ref="D36"  Part="1" 
+AR Path="/57CDD1C6/57C9F5E7" Ref="D45"  Part="1" 
+AR Path="/57CDBB9B/57C9F5E7" Ref="D54"  Part="1" 
+AR Path="/57CD9283/57C9F5E7" Ref="D63"  Part="1" 
+F 0 "D9" H 7650 5275 50  0000 C CNN
+F 1 "LED_5060" H 7650 5200 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 7650 4800 50  0001 C CNN
+F 3 "" H 7650 4800 50  0000 C CNN
+	1    7650 4850
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D6
+U 1 1 57C9F727
+P 7650 3950
+AR Path="/57CDC136/57C9F727" Ref="D6"  Part="1" 
+AR Path="/57CDC49D/57C9F727" Ref="D15"  Part="1" 
+AR Path="/57CDCAE0/57C9F727" Ref="D24"  Part="1" 
+AR Path="/57CDCE6B/57C9F727" Ref="D33"  Part="1" 
+AR Path="/57CDD1C6/57C9F727" Ref="D42"  Part="1" 
+AR Path="/57CDBB9B/57C9F727" Ref="D51"  Part="1" 
+AR Path="/57CD9283/57C9F727" Ref="D60"  Part="1" 
+F 0 "D6" H 7650 4375 50  0000 C CNN
+F 1 "LED_5060" H 7650 4300 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 7650 3900 50  0001 C CNN
+F 3 "" H 7650 3900 50  0000 C CNN
+	1    7650 3950
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D3
+U 1 1 57C9F74B
+P 7650 3050
+AR Path="/57CDC136/57C9F74B" Ref="D3"  Part="1" 
+AR Path="/57CDC49D/57C9F74B" Ref="D12"  Part="1" 
+AR Path="/57CDCAE0/57C9F74B" Ref="D21"  Part="1" 
+AR Path="/57CDCE6B/57C9F74B" Ref="D30"  Part="1" 
+AR Path="/57CDD1C6/57C9F74B" Ref="D39"  Part="1" 
+AR Path="/57CDBB9B/57C9F74B" Ref="D48"  Part="1" 
+AR Path="/57CD9283/57C9F74B" Ref="D57"  Part="1" 
+F 0 "D3" H 7650 3475 50  0000 C CNN
+F 1 "LED_5060" H 7650 3400 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 7650 3000 50  0001 C CNN
+F 3 "" H 7650 3000 50  0000 C CNN
+	1    7650 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D8
+U 1 1 57C9F7FC
+P 6850 4850
+AR Path="/57CDC136/57C9F7FC" Ref="D8"  Part="1" 
+AR Path="/57CDC49D/57C9F7FC" Ref="D17"  Part="1" 
+AR Path="/57CDCAE0/57C9F7FC" Ref="D26"  Part="1" 
+AR Path="/57CDCE6B/57C9F7FC" Ref="D35"  Part="1" 
+AR Path="/57CDD1C6/57C9F7FC" Ref="D44"  Part="1" 
+AR Path="/57CDBB9B/57C9F7FC" Ref="D53"  Part="1" 
+AR Path="/57CD9283/57C9F7FC" Ref="D62"  Part="1" 
+F 0 "D8" H 6850 5275 50  0000 C CNN
+F 1 "LED_5060" H 6850 5200 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 6850 4800 50  0001 C CNN
+F 3 "" H 6850 4800 50  0000 C CNN
+	1    6850 4850
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D5
+U 1 1 57C9F802
+P 6850 3950
+AR Path="/57CDC136/57C9F802" Ref="D5"  Part="1" 
+AR Path="/57CDC49D/57C9F802" Ref="D14"  Part="1" 
+AR Path="/57CDCAE0/57C9F802" Ref="D23"  Part="1" 
+AR Path="/57CDCE6B/57C9F802" Ref="D32"  Part="1" 
+AR Path="/57CDD1C6/57C9F802" Ref="D41"  Part="1" 
+AR Path="/57CDBB9B/57C9F802" Ref="D50"  Part="1" 
+AR Path="/57CD9283/57C9F802" Ref="D59"  Part="1" 
+F 0 "D5" H 6850 4375 50  0000 C CNN
+F 1 "LED_5060" H 6850 4300 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 6850 3900 50  0001 C CNN
+F 3 "" H 6850 3900 50  0000 C CNN
+	1    6850 3950
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D2
+U 1 1 57C9F808
+P 6850 3050
+AR Path="/57CDC136/57C9F808" Ref="D2"  Part="1" 
+AR Path="/57CDC49D/57C9F808" Ref="D11"  Part="1" 
+AR Path="/57CDCAE0/57C9F808" Ref="D20"  Part="1" 
+AR Path="/57CDCE6B/57C9F808" Ref="D29"  Part="1" 
+AR Path="/57CDD1C6/57C9F808" Ref="D38"  Part="1" 
+AR Path="/57CDBB9B/57C9F808" Ref="D47"  Part="1" 
+AR Path="/57CD9283/57C9F808" Ref="D56"  Part="1" 
+F 0 "D2" H 6850 3475 50  0000 C CNN
+F 1 "LED_5060" H 6850 3400 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 6850 3000 50  0001 C CNN
+F 3 "" H 6850 3000 50  0000 C CNN
+	1    6850 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D7
+U 1 1 57C9F982
+P 6050 4850
+AR Path="/57CDC136/57C9F982" Ref="D7"  Part="1" 
+AR Path="/57CDC49D/57C9F982" Ref="D16"  Part="1" 
+AR Path="/57CDCAE0/57C9F982" Ref="D25"  Part="1" 
+AR Path="/57CDCE6B/57C9F982" Ref="D34"  Part="1" 
+AR Path="/57CDD1C6/57C9F982" Ref="D43"  Part="1" 
+AR Path="/57CDBB9B/57C9F982" Ref="D52"  Part="1" 
+AR Path="/57CD9283/57C9F982" Ref="D61"  Part="1" 
+F 0 "D7" H 6050 5275 50  0000 C CNN
+F 1 "LED_5060" H 6050 5200 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 6050 4800 50  0001 C CNN
+F 3 "" H 6050 4800 50  0000 C CNN
+	1    6050 4850
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D4
+U 1 1 57C9F988
+P 6050 3950
+AR Path="/57CDC136/57C9F988" Ref="D4"  Part="1" 
+AR Path="/57CDC49D/57C9F988" Ref="D13"  Part="1" 
+AR Path="/57CDCAE0/57C9F988" Ref="D22"  Part="1" 
+AR Path="/57CDCE6B/57C9F988" Ref="D31"  Part="1" 
+AR Path="/57CDD1C6/57C9F988" Ref="D40"  Part="1" 
+AR Path="/57CDBB9B/57C9F988" Ref="D49"  Part="1" 
+AR Path="/57CD9283/57C9F988" Ref="D58"  Part="1" 
+F 0 "D4" H 6050 4375 50  0000 C CNN
+F 1 "LED_5060" H 6050 4300 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 6050 3900 50  0001 C CNN
+F 3 "" H 6050 3900 50  0000 C CNN
+	1    6050 3950
+	0    1    -1   0   
+$EndComp
+$Comp
+L LED_5060 D1
+U 1 1 57C9F98E
+P 6050 3050
+AR Path="/57CDC136/57C9F98E" Ref="D1"  Part="1" 
+AR Path="/57CDC49D/57C9F98E" Ref="D10"  Part="1" 
+AR Path="/57CDCAE0/57C9F98E" Ref="D19"  Part="1" 
+AR Path="/57CDCE6B/57C9F98E" Ref="D28"  Part="1" 
+AR Path="/57CDD1C6/57C9F98E" Ref="D37"  Part="1" 
+AR Path="/57CDBB9B/57C9F98E" Ref="D46"  Part="1" 
+AR Path="/57CD9283/57C9F98E" Ref="D55"  Part="1" 
+F 0 "D1" H 6050 3475 50  0000 C CNN
+F 1 "LED_5060" H 6050 3400 50  0000 C CNN
+F 2 "SMD:SMD_5060" H 6050 3000 50  0001 C CNN
+F 3 "" H 6050 3000 50  0000 C CNN
+	1    6050 3050
+	0    1    -1   0   
+$EndComp
+Text HLabel 5750 3700 0    60   Input ~ 0
+A1
+Text HLabel 7650 5200 3    60   Output ~ 0
+K2
+Text HLabel 6850 5200 3    60   Output ~ 0
+K1
+Text HLabel 6050 5200 3    60   Output ~ 0
+K0
+Text HLabel 5750 2800 0    60   Input ~ 0
+A0
+Text HLabel 5750 4600 0    60   Input ~ 0
+A2
+Wire Wire Line
+	7850 2800 7850 2850
+Wire Wire Line
+	5750 2800 7850 2800
+Wire Wire Line
+	7450 2800 7450 2850
+Connection ~ 7650 2800
+Wire Wire Line
+	5750 3700 7850 3700
+Wire Wire Line
+	7850 3700 7850 3750
+Wire Wire Line
+	7650 3700 7650 3700
+Wire Wire Line
+	7650 3700 7650 3750
+Wire Wire Line
+	7450 3700 7450 3750
+Connection ~ 7650 3700
+Connection ~ 7450 3700
+Wire Wire Line
+	7450 4600 7450 4650
+Wire Wire Line
+	7850 4600 7850 4650
+Wire Wire Line
+	7650 4600 7650 4650
+Connection ~ 7650 4600
+Connection ~ 7450 4600
+Wire Wire Line
+	7450 5100 7450 5050
+Wire Wire Line
+	7450 5100 7850 5100
+Wire Wire Line
+	7850 5100 7850 5050
+Wire Wire Line
+	7650 5050 7650 5200
+Connection ~ 7650 5100
+Wire Wire Line
+	7050 2800 7050 2850
+Wire Wire Line
+	6650 2800 6650 2850
+Connection ~ 6850 2800
+Wire Wire Line
+	6250 2800 6250 2850
+Wire Wire Line
+	5850 2800 5850 2850
+Wire Wire Line
+	6050 2800 6050 2850
+Connection ~ 6050 2800
+Wire Wire Line
+	7050 3700 7050 3750
+Wire Wire Line
+	6850 3700 6850 3750
+Wire Wire Line
+	6650 3700 6650 3750
+Connection ~ 6850 3700
+Connection ~ 7050 3700
+Connection ~ 6650 3700
+Wire Wire Line
+	5750 4600 7850 4600
+Wire Wire Line
+	6650 4600 6650 4650
+Wire Wire Line
+	7050 4600 7050 4650
+Wire Wire Line
+	6850 4600 6850 4650
+Connection ~ 6850 4600
+Connection ~ 7050 4600
+Connection ~ 6650 4600
+Wire Wire Line
+	7050 5100 7050 5050
+Wire Wire Line
+	6650 5100 7050 5100
+Wire Wire Line
+	6650 5100 6650 5050
+Wire Wire Line
+	6850 5050 6850 5200
+Connection ~ 6850 5100
+Wire Wire Line
+	6250 3700 6250 3750
+Wire Wire Line
+	6050 3700 6050 3750
+Wire Wire Line
+	5850 3700 5850 3750
+Connection ~ 6050 3700
+Connection ~ 5850 3700
+Connection ~ 6250 3700
+Wire Wire Line
+	6250 4600 6250 4650
+Wire Wire Line
+	6050 4600 6050 4650
+Wire Wire Line
+	5850 4600 5850 4650
+Connection ~ 6050 4600
+Connection ~ 5850 4600
+Connection ~ 6250 4600
+Wire Wire Line
+	6250 5100 6250 5050
+Wire Wire Line
+	5850 5100 6250 5100
+Wire Wire Line
+	5850 5100 5850 5050
+Wire Wire Line
+	6050 5050 6050 5200
+Connection ~ 6050 5100
+Connection ~ 5850 2800
+Connection ~ 6650 2800
+Connection ~ 6250 2800
+Connection ~ 7450 2800
+Connection ~ 7050 2800
+Wire Wire Line
+	5850 3250 5850 3300
+Wire Wire Line
+	6250 3300 6250 3250
+Wire Wire Line
+	6050 3250 6050 3400
+Wire Wire Line
+	6650 3250 6650 3300
+Wire Wire Line
+	7050 3300 7050 3250
+Wire Wire Line
+	6850 3250 6850 3400
+Wire Wire Line
+	7450 3250 7450 3300
+Wire Wire Line
+	7450 3300 7850 3300
+Wire Wire Line
+	7850 3300 7850 3250
+Wire Wire Line
+	7650 3250 7650 3400
+Wire Wire Line
+	7650 2850 7650 2800
+Wire Wire Line
+	6850 2850 6850 2800
+Text HLabel 7650 4300 3    60   Output ~ 0
+K2
+Text HLabel 6850 4300 3    60   Output ~ 0
+K1
+Text HLabel 6050 4300 3    60   Output ~ 0
+K0
+Text HLabel 7650 3400 3    60   Output ~ 0
+K2
+Text HLabel 6850 3400 3    60   Output ~ 0
+K1
+Text HLabel 6050 3400 3    60   Output ~ 0
+K0
+Wire Wire Line
+	5850 4150 5850 4200
+Wire Wire Line
+	5850 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 4150
+Wire Wire Line
+	6050 4150 6050 4300
+Connection ~ 6050 4200
+Wire Wire Line
+	6650 4150 6650 4200
+Wire Wire Line
+	6650 4200 7050 4200
+Wire Wire Line
+	7050 4200 7050 4150
+Wire Wire Line
+	6850 4150 6850 4300
+Connection ~ 6850 4200
+Wire Wire Line
+	7450 4150 7450 4200
+Wire Wire Line
+	7450 4200 7850 4200
+Wire Wire Line
+	7850 4200 7850 4150
+Wire Wire Line
+	7650 4150 7650 4300
+Connection ~ 7650 4200
+Connection ~ 7650 3300
+Wire Wire Line
+	6650 3300 7050 3300
+Connection ~ 6850 3300
+Wire Wire Line
+	5850 3300 6250 3300
+Connection ~ 6050 3300
+$EndSCHEMATC

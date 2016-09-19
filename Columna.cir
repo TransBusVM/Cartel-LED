@@ -1,0 +1,89 @@
+* /media/DATOS/Dropbox/TransBus - La Estrella/Cartel/Modelos/Columna5060/Columna5060.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: vie 16 sep 2016 15:10:40 ART
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+P4  /1/K0 /1/K1 /1/K2 CONN_01X03		
+JP7  /7/A0 /7/A1 /7/A2 JUMPER3_NO		
+JP6  /6/A0 /6/A1 /6/A2 JUMPER3_NO		
+JP5  /5/A0 /5/A1 /5/A2 JUMPER3_NO		
+JP4  /4/A0 /4/A1 /4/A2 JUMPER3_NO		
+JP3  /3/A0 /3/A1 /3/A2 JUMPER3_NO		
+JP2  /2/A0 /2/A1 /2/A2 JUMPER3_NO		
+JP1  /1/A0 /1/A1 /1/A2 JUMPER3_NO		
+P1  /1/A0 /1/A1 /1/A2 /2/A0 /2/A1 /2/A2 /3/A0 /3/A1 /3/A2 /4/A0 /4/A1 /4/A2 /5/A0 /5/A1 /5/A2 /6/A0 /6/A1 /6/A2 /7/A0 /7/A1 /7/A2 CONN_01X21		
+* Sheet Name: /1/
+D9  /1/A2 /1/A2 /1/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D6  /1/A1 /1/A1 /1/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D3  /1/A0 /1/A0 /1/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D8  /1/A2 /1/A2 /1/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D5  /1/A1 /1/A1 /1/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D2  /1/A0 /1/A0 /1/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D7  /1/A2 /1/A2 /1/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D4  /1/A1 /1/A1 /1/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D1  /1/A0 /1/A0 /1/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+* Sheet Name: /2/
+D18  /2/A2 /2/A2 /2/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D15  /2/A1 /2/A1 /2/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D12  /2/A0 /2/A0 /2/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D17  /2/A2 /2/A2 /2/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D14  /2/A1 /2/A1 /2/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D11  /2/A0 /2/A0 /2/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D16  /2/A2 /2/A2 /2/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D13  /2/A1 /2/A1 /2/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D10  /2/A0 /2/A0 /2/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+* Sheet Name: /3/
+D27  /3/A2 /3/A2 /3/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D24  /3/A1 /3/A1 /3/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D21  /3/A0 /3/A0 /3/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D26  /3/A2 /3/A2 /3/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D23  /3/A1 /3/A1 /3/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D20  /3/A0 /3/A0 /3/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D25  /3/A2 /3/A2 /3/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D22  /3/A1 /3/A1 /3/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D19  /3/A0 /3/A0 /3/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+* Sheet Name: /4/
+D36  /4/A2 /4/A2 /4/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D33  /4/A1 /4/A1 /4/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D30  /4/A0 /4/A0 /4/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D35  /4/A2 /4/A2 /4/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D32  /4/A1 /4/A1 /4/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D29  /4/A0 /4/A0 /4/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D34  /4/A2 /4/A2 /4/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D31  /4/A1 /4/A1 /4/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D28  /4/A0 /4/A0 /4/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+* Sheet Name: /5/
+D45  /5/A2 /5/A2 /5/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D42  /5/A1 /5/A1 /5/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D39  /5/A0 /5/A0 /5/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D44  /5/A2 /5/A2 /5/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D41  /5/A1 /5/A1 /5/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D38  /5/A0 /5/A0 /5/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D43  /5/A2 /5/A2 /5/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D40  /5/A1 /5/A1 /5/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D37  /5/A0 /5/A0 /5/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+* Sheet Name: /6/
+D54  /6/A2 /6/A2 /6/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D51  /6/A1 /6/A1 /6/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D48  /6/A0 /6/A0 /6/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D53  /6/A2 /6/A2 /6/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D50  /6/A1 /6/A1 /6/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D47  /6/A0 /6/A0 /6/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D52  /6/A2 /6/A2 /6/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D49  /6/A1 /6/A1 /6/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D46  /6/A0 /6/A0 /6/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+* Sheet Name: /7/
+D63  /7/A2 /7/A2 /7/A2 /1/K2 /1/K2 /1/K2 LED_5060		
+D60  /7/A1 /7/A1 /7/A1 /1/K2 /1/K2 /1/K2 LED_5060		
+D57  /7/A0 /7/A0 /7/A0 /1/K2 /1/K2 /1/K2 LED_5060		
+D62  /7/A2 /7/A2 /7/A2 /1/K1 /1/K1 /1/K1 LED_5060		
+D59  /7/A1 /7/A1 /7/A1 /1/K1 /1/K1 /1/K1 LED_5060		
+D56  /7/A0 /7/A0 /7/A0 /1/K1 /1/K1 /1/K1 LED_5060		
+D61  /7/A2 /7/A2 /7/A2 /1/K0 /1/K0 /1/K0 LED_5060		
+D58  /7/A1 /7/A1 /7/A1 /1/K0 /1/K0 /1/K0 LED_5060		
+D55  /7/A0 /7/A0 /7/A0 /1/K0 /1/K0 /1/K0 LED_5060		
+
+.end

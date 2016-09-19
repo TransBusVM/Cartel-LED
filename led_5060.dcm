@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_5060
+D LED RGB 6 pins
+$ENDCMP
+#
+#End Doc Library
