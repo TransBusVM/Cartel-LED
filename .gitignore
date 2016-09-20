@@ -9,6 +9,8 @@ _autosave-*
 *cache*
 *autosave*
 _saved*
+*-cache.lib
+*-rescue.lib
 
 # Netlist Eeschema
 *.net
