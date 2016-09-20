@@ -6,6 +6,9 @@
 *~
 _autosave-*
 *.tmp
+*cache*
+*autosave*
+_saved*
 
 # Netlist Eeschema
 *.net
