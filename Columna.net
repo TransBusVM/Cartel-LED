@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/home/tic/Cartel-LED/Columna LED/Columna.sch")
-    (date "lun 19 sep 2016 09:36:45 ART")
+    (source /home/tic/Cartel-LED/Columna.sch)
+    (date "mar 20 sep 2016 08:46:16 ART")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -94,7 +94,7 @@
   (components
     (comp (ref P4)
       (value CONN_01X03)
-      (footprint Connect:Wafer_Vertical10x5.8x7RM2.5-3)
+      (footprint Poste:Poste_1x3)
       (libsource (lib conn) (part CONN_01X03))
       (sheetpath (names /) (tstamps /))
       (tstamp 57D04A08))
@@ -592,12 +592,12 @@
         (pin (num 5) (name ~) (type power_out))
         (pin (num 6) (name ~) (type power_out)))))
   (libraries
-    (library (logical led_5060)
-      (uri "/home/tic/Cartel-LED/Columna LED/Librerias/led_5060.lib"))
-    (library (logical jumper3_no)
-      (uri "/home/tic/Cartel-LED/Columna LED/Librerias/jumper3_no.lib"))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical jumper3_no)
+      (uri /home/tic/Cartel-LED/Librerias/jumper3_no.lib))
+    (library (logical led_5060)
+      (uri /home/tic/Cartel-LED/Librerias/led_5060.lib)))
   (nets
     (net (code 1) (name /6/A2)
       (node (ref D52) (pin 2))
