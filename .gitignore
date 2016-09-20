@@ -1,0 +1,22 @@
+# Archivos temporales
+*.bak
+*.000
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+
+# Netlist Eeschema
+*.net
+
+# Autorouter Pcbnew
+*.dns
+
+# BOM
+*.xlm
+*.csv
+
+# SPICE
+*.raw
+*.log
