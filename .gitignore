@@ -8,7 +8,7 @@ _autosave-*
 *.tmp
 
 # Netlist Eeschema
-*.net
+# *.net
 
 # Autorouter Pcbnew
 *.dns
@@ -22,7 +22,7 @@ _autosave-*
 *.log
 
 # FreeCAD
-*.
+# *.
 
 # No se a quien pertenecen
 # *-cache.lib
