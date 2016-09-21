@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP JUMPER3_NO
-D Jumper x3 NO
-K jumper no normal open
-$ENDCMP
-#
-#End Doc Library

@@ -339,6 +339,11 @@
       (net 23 /7/A1))
     (pad 21 thru_hole circle (at 0 25.4) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 24 /7/A2))
+    (model ${KIPRJMOD}/3D/Poste-3D/Poste_1x21.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMD:SMD_5060 (layer F.Cu) (tedit 57D73453) (tstamp 57D33D95)
@@ -2502,6 +2507,11 @@
       (net 4 /1/K2))
     (pad 1 thru_hole circle (at 0 -2.54 90) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS)
       (net 2 /1/K0))
+    (model ${KIPRJMOD}/3D/Poste-3D/Poste_1x3.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (gr_line (start 78.1 243.2) (end 126.6 243.2) (layer Edge.Cuts) (width 0.15))

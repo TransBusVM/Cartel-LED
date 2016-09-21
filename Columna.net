@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tic/Cartel-LED/Columna.sch)
-    (date "mar 20 sep 2016 08:46:16 ART")
+    (date "mié 21 sep 2016 11:14:43 ART")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -572,6 +572,7 @@
         (pin (num 20) (name P20) (type passive))
         (pin (num 21) (name P21) (type passive))))
     (libpart (lib jumper3_no) (part JUMPER3_NO)
+      (description "Jumper x3 NO")
       (fields
         (field (name Reference) JP)
         (field (name Value) JUMPER3_NO))
@@ -580,6 +581,7 @@
         (pin (num 2) (name 2) (type BiDi))
         (pin (num 3) (name 3) (type BiDi))))
     (libpart (lib led_5060) (part LED_5060)
+      (description "LED RGB 6 pins")
       (fields
         (field (name Reference) D)
         (field (name Value) LED_5060)
@@ -592,12 +594,12 @@
         (pin (num 5) (name ~) (type power_out))
         (pin (num 6) (name ~) (type power_out)))))
   (libraries
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical jumper3_no)
       (uri /home/tic/Cartel-LED/Librerias/jumper3_no.lib))
     (library (logical led_5060)
-      (uri /home/tic/Cartel-LED/Librerias/led_5060.lib)))
+      (uri /home/tic/Cartel-LED/Librerias/led_5060.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /6/A2)
       (node (ref D52) (pin 2))

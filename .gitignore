@@ -4,7 +4,7 @@
 *.bck
 *.kicad_pcb-bak
 *~
-_autosave-*
+_autosave*
 *.tmp
 
 # Netlist Eeschema

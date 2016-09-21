@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Columna5060-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,10 +28,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:jumper3_no
 LIBS:led_5060
 LIBS:TLC5940NT
-LIBS:jumper3_no
-LIBS:Columna5060-cache
+LIBS:Columna-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -125,7 +124,7 @@ U 1 1 57D04A08
 P 6600 5700
 F 0 "P4" H 6600 5900 50  0000 C CNN
 F 1 "CONN_01X03" V 6700 5700 50  0000 C CNN
-F 2 "Connect:Wafer_Vertical10x5.8x7RM2.5-3" H 6600 5700 50  0001 C CNN
+F 2 "Poste:Poste_1x3" H 6600 5700 50  0001 C CNN
 F 3 "" H 6600 5700 50  0000 C CNN
 	1    6600 5700
 	0    1    1    0   
